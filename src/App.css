@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+/* Page background */
+.page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Main card */
+.card {
+  background: #ffffff;
+  width: 100%;
+  max-width: 520px;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #222;
+  font-size: 28px;
+  letter-spacing: 0.5px;
+}
+
+h2 {
+  margin-top: 28px;
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 20px;
+}
+
+
+/* Form elements */
+label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: block;
+}
+
+select,
+textarea {
+  width: 100%;
+  padding: 14px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 16px;
+}
+
+/* FIX: textarea height */
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: none;
+  background: #667eea;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #5a67d8;
+}
+
+/* AI message */
+.ai-text {
+  margin-top: 12px;
+  color: green;
+  font-style: italic;
+}
+
+/* Sections */
+.summary,
+.history {
+  background: #f7f7f7;
+  padding: 16px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+/* History items */
+.history-item {
+  margin-bottom: 12px;
+}
+
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.2);
+}
+
