@@ -1,74 +1,76 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+🧠 AI Mood Journal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+AI Mood Journal is a web application that helps users track their daily emotions and analyze mood patterns using intelligent insights.
 
-## Available Scripts
+🚀 Features
 
-In the project directory, you can run:
+✍️ Add Daily Mood Entries
 
-### `npm start`
+📊 Track Mood History
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🤖 AI-based Mood Insights
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🔐 User Authentication
 
-### `npm test`
+📱 Responsive UI
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🛠️ Tech Stack
+Frontend
 
-### `npm run build`
+React.js
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+HTML5
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+CSS3
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Backend (if applicable)
 
-### `npm run eject`
+Node.js / Express.js
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Database
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+MongoDB / MySQL
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+📦 Installation & Setup
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Clone the repository:
 
-## Learn More
+git clone https://github.com/faizanvm210/AI-MOOD-JOURNAL.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Go into project directory:
 
-### Code Splitting
+cd AI-MOOD-JOURNAL
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+npm install
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Run the development server:
 
-### Advanced Configuration
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+App will run at:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+http://localhost:3000
 
-### `npm run build` fails to minify
+🏗️ Build for Production
+npm run build
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# AI-MOOD-JOURNAL
->>>>>>> 30e2a5defbeb43b63682c3b2d8a0b8b998244a43
+📸 Future Improvements
+
+Advanced mood analytics
+
+AI sentiment prediction
+
+Weekly/Monthly reports
+
+Dark mode
+
+👨‍💻 Author
+
+Faizan
+GitHub: https://github.com/faizanvm210
